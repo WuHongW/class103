@@ -164,4 +164,8 @@ public class EsMannager {
     public void end() throws Exception {
         client.close();
     }
+	  @After
+    public void zhangsan() throws Exception {
+       System.out.println("张三");
+    }
 }
