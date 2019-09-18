@@ -164,4 +164,8 @@ public class EsMannager {
     public void end() throws Exception {
         client.close();
     }
+	  @Test
+    public void lisi() throws Exception {
+       System.out.println("李四");
+    }
 }
